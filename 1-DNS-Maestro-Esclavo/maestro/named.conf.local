@@ -1,0 +1,18 @@
+// Punto 1
+
+zone "empresa.local" {
+        type master;
+        file "/etc/bind/db.empresa.local";
+
+        notify yes;
+        allow-transfer { key empresa-transfer; };
+};
+
+zone "50.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.192.168.50";
+
+        notify yes;
+        allow-transfer { key empresa-transfer; };
+        also-notify {192.168.50.2; };
+}
