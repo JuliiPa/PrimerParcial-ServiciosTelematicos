@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba de Compresion - Parcial Servicios Telematicos</title>
+</head>
+<body>
+
+<h1>Prueba de Compresion con mod_deflate</h1>
+<h3> JULIANA PACHECO AMAYA </h3>
+
+<p>
+Este es un texto de prueba especificamente para evaluar el funcionamiento del modulo
+mod_deflate en el servidor Apache. El objetivo principal es comprobar como la compresion gzip
+reduce el length de los archivos HTML cuando estos contienen una cantidad significativa de
+contenido textual. En escenarios reales, las paginas web modernas incluyen grandes volumenes
+de codigo HTML, hojas de estilo CSS, scripts JavaScript y otros recursos que pueden beneficiarse
+enormemente de la compresion antes de ser transmitidos al cliente.
+</p>
+
+<p>
+La compresion gzip funciona aplicando algoritmos que identifican patrones repetitivos dentro
+del texto, reduciendo la redundancia y optimizando el length final del archivo. Este proceso
+es especialmente eficiente en contenido basado en texto, ya que los lenguajes de marcado y
+programacion suelen contener estructuras repetidas, etiquetas similares y cadenas de caracteres
+que pueden comprimirse facilmente. Como resultado, el trafico de red disminuye y el tiempo
+de carga percibido por el usuario mejora considerablemente.
+</p>
+
+<p>
+En terminos de rendimiento, la reduccion del length de los datos enviados impacta directamente
+en el uso del ancho de banda. Esto es particularmente importante en redes con limitaciones de
+velocidad o en entornos donde multiples usuarios acceden simultaneamente al mismo servidor.
+Al disminuir la cantidad de informacion transmitida, se optimiza la eficiencia general del
+sistema y se mejora la experiencia de navegacion.
+</p>
+
+<p>
+Sin embargo, es importante considerar que la compresion tambien implica un incremento minimo
+en el uso de CPU del servidor, ya que los datos deben procesarse antes de enviarse al cliente.
+En la mayoria de los casos, este impacto es minimo y se compensa ampliamente con los beneficios
+obtenidos en reduccion de trafico. Por esta razon, la compresion gzip es una practica estandar
+en la configuracion de servidores web modernos.
+</p>
+
+
+</body>
+</html>
