@@ -1,1 +1,1 @@
-Archivos de configuración de evidencias.
+Archivos de evidencias.
