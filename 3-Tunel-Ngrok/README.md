@@ -1,7 +1,4 @@
 # Tunel - Ngrok
-Evidencias y archivos de configuración.
-
-# Exposición de Servicio con Ngrok
 
 ## Descripción
 Exposición del servidor Apache a Internet mediante un túnel seguro con Ngrok.
